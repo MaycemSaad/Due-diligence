@@ -1,0 +1,1 @@
+def Generate_Contrat():
