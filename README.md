@@ -1,45 +1,47 @@
-# 📊 Due Diligence — Application Web d'Analyse de Documents
+# 📊 Due Diligence — Document Analysis Web Application
 
-🚀 **Projet :** Application IA pour l’extraction, l’analyse et la visualisation intelligente de documents financiers et juridiques.
-
----
-
-## 📖 Description
-**Due Diligence** est une application web intelligente permettant d’**extraire automatiquement** des informations pertinentes à partir de **documents complexes** (rapports, contrats, états financiers, etc.).  
-Elle combine **NLP**, **IA générative**, et **visualisation interactive** pour assister les analystes dans la prise de décision.
+🚀 **Project:** AI-powered application for intelligent extraction, analysis, and visualization of financial and legal documents.
 
 ---
 
-## 🧩 Objectifs du projet
-- 📄 Extraction et analyse automatique d’informations textuelles.  
-- 🧠 Implémentation d’un **parsing sémantique** via **NLP** et **LangChain**.  
-- 🗂️ Génération automatique de **rapports PowerPoint** détaillés.  
-- ⚙️ Fonctions avancées : **classification**, **scoring de risque**, et **chatbot RAG** (LLMs + Human-in-the-Loop).  
-- 💻 Interface utilisateur en **Streamlit** pour la visualisation et la recherche.  
-- 📈 Tableau de bord **Dash/Plotly** pour le suivi des performances et indicateurs clés.  
-- 🗃️ **MongoDB** pour le stockage structuré des données.  
-- 📊 Intégration de modèles de **prévision de séries temporelles** pour les tendances financières.
+## 📖 Overview
+**Due Diligence** is a smart web application designed to **automatically extract** relevant information from **complex documents** (reports, contracts, financial statements, and more).  
+It combines **NLP**, **Generative AI**, and **interactive visual analytics** to support analysts in decision-making.
 
 ---
 
-## 🛠️ Stack Technique
-**Backend :**
+## 🧩 Project Objectives
+- 📄 Automatic extraction and analysis of textual information.  
+- 🧠 Implementation of **semantic parsing** using **NLP** and **LangChain**.  
+- 🗂️ Automatic generation of detailed **PowerPoint reports**.  
+- ⚙️ Advanced features: **classification**, **risk scoring**, and **RAG chatbot** (LLMs + Human-in-the-Loop).  
+- 💻 User interface built with **Streamlit** for visualization and search.  
+- 📈 **Dash/Plotly** dashboard for performance monitoring and key indicators.  
+- 🗃️ **MongoDB** for structured data storage.  
+- 📊 Integration of **time series forecasting models** for financial trend analysis.
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend**
 - Python  
 - LangChain  
 - FastAPI / Flask  
 - NLP (spaCy, Transformers)  
 - FAISS / LLMs (GPT, Ollama)  
 
-**Frontend :**
-- Streamlit (interface utilisateur)  
-- Dash + Plotly (espace administrateur)  
+**Frontend**
+- Streamlit (user interface)  
+- Dash + Plotly (admin dashboard)  
 
-**Base de données :**
+**Database**
 - MongoDB  
 
-**Autres :**
+**Other Tools**
 - PowerPoint Automation (python-pptx)  
 - Pandas / NumPy / Scikit-learn  
 - Time Series Forecasting  
 
 ---
+
